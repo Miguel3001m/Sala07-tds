@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(12, 63, 165);
+    background-color: rgb(225, 225, 225);
     display: flex;
     height: 100vh;
     align-items: center;
@@ -9,18 +9,22 @@ body{
 
 button{
     background-color: rgba(64, 64, 64, 0.886);
-    color: rgb(225, 225, 232);
+    color: rgb(239, 89, 184);
     border: none;
     padding: 10px 20px;
     border-radius: 999px;
     font-size: 20px;
+    border: 3px solid;
+    transition: all 200ms linear;
 }
 
 button:hover{
     background-color: transparent;
     border: 3px solid;
     cursor: pointer;
-
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;;
+    color:rgb(0, 11, 11)
+    
 }
 
 
