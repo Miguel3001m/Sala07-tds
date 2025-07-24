@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-image: url("./images/Minecraft-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.container{
+    background-color: rgba(72, 72, 74, 0.741);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 10px;
+    border: 3px solid #fff;
+    animation: top 1s linear;
+}
+@keyframes top {
+    0%{
+    transform: translateY(100px);    
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}
+
+h1{
+    color: rgb(39, 126, 202);
+    font-size: 48px;
+    animation: bottom 1s linear;
+    font-family: "Bitcount Prop Single", system-ui;
+}
+
+@keyframes bottom{
+
+0%{
+    transform: translateY(-100px);
+    opacity: 0;
+}
+
+100%{
+    transform: translateY(-100px);
+    opacity: 0;
+}
+
+}
+
+label{
+    text-align: left;
+    width: 100%;
+    margin-bottom: -10px;
+    color: #090908;
+}
+
+input{
+    background-color: #fff;
+    border: none;
+    border-bottom: 3px solid #fff;
+    font-weight: bold;
+}
+
+input::placeholder{
+    color :rgba(46, 44, 44, 0.79);
+    font-weight: lighter;
+}
+    
+
+input:focus{
+    outline: none;
+}
+
+.btn{
+    padding: 16px;
+    border: none;
+    border: 3px solid white;
+    color: #fff;
+    background: transparent;
+    transition: all 200ms ease-in-out;
+    border-radius: 10px;
+    width: 100%;
+    
+}
+
+.btn:hover{
+    background: #fff;
+    cursor: pointer;
+    color: #090908;
+}
+
+#respMedia{
+    font-size: 36px;
+    background-color: aqua;
+    border-radius: 999px;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
