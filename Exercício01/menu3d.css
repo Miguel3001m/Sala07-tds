@@ -19,3 +19,20 @@ ul{
     gap: 40px;
     list-style: none;
 }
+
+ul li a i{
+    font-size: 30px;
+    color:black;
+    line-height: 80px;
+    transition: 0.5ms;
+    padding-right: 20x;
+    padding-top: 22px;
+}
+
+ul li a span{
+    position: absolute;
+    top: 30px;
+    color: #333;
+    letter-spacing: 4px;
+    transition: 0.5s;
+}
