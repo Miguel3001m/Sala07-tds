@@ -13,7 +13,7 @@ if(!nome || !assunto){
     return
 }
  
-const mensagem = `gostaria de entrar em você" \n \nNome: ${nome} \nAssunto: ${assunto}`
+const mensagem = `gostaria de entrar em contato com você" \n \nNome: ${nome} \nAssunto: ${assunto}`
 const msg = encodeURIComponent(mensagem)
 window.location.href = `https://wa.me/5541998817974?text=${msg}`
 }
