@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav{
+/* nav{
     position: fixed;
     top: 0;
     width: 100%;
@@ -17,6 +17,10 @@ nav{
     background-color: #fff;
     height: 80px;
     box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+} */
+
+nav{
+    text-align: center;
 }
 
 nav a{
@@ -85,7 +89,7 @@ justify-content: center;
     padding: 20px;
 }
 
-.card{
+.card-nosso{
     background-color: #ddddddb9;
     width: 300px;
     height: 320px;
@@ -100,13 +104,13 @@ justify-content: center;
     flex-direction: column ;
 }
 
-.card:hover{
+.card-nosso:hover{
     background-color: #ffffffa3;
     box-shadow: #ffea00 0px 5px 100px;
     cursor: crosshair;
 }
 
-.card img{
+.card-nosso img{
     border-radius: 10px;
     background-color: white;
     padding: 20px;

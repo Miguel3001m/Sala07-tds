@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
 </head>
 
 <body>
-    <nav>
+    <!-- <nav>
         <a href="#s1"><i class="fa-solid fa-hand-fist"></i>
             <p>Sessão 01</p>
         </a>
@@ -24,7 +26,45 @@
         <a href="#s4"><i class="fa-solid fa-bolt"></i>
             <p>Sessão 04</p>
         </a>
-    </nav>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
     <main>
         <section id="s1">
             <div class="wrap-img">
@@ -39,20 +79,20 @@
         <section id="s2">
             <h2>La grugru</h2>
             <div class="wrap-cards">
-                <div class="card">
+                <div class="card-nosso">
                     <img width="100px" height="auto" src="./images/simbhtml.png" alt="imagem card 1">
                     <h3>HTML</h3>
                     <p>HTML (HyperText Markup Language) é a
                         linguagem padrão usada para criar e
                         estruturar páginas da web. </p>
                 </div>
-                <div class="card">
+                <div class="card-nosso">
                     <img width="100px" height="auto" src="./images/simpcss.png" alt="imagem card 2">
                     <h3>CSS</h3>
                     <p>CSS, ou Folhas de Estilo em Cascatas, é uma linguagem usada para descrever a apresentação de
                         documentos HTML</p>
                 </div>
-                <div class="card">
+                <div class="card-nosso">
                     <img width="100px" height="auto" src="./images/simbjs.webp" alt="imagem card 3">
                     <h3>JAVA</h3>
                     <p>JavaScript é uma linguagem de programação de alto nível, usada principalmente para adicionar
